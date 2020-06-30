@@ -27,8 +27,8 @@ Change torch wheel file in requirements.txt based on Windows, Linux or Mac OS be
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
 Step 2: ```pip3 install -r requirements.txt```<br>
-Step 3: ```python web-streaming.py –ip 0.0.0.0 –host 8000 (For MacOS/ Linux )```<br>
-        ```python web-streaming.py –ip 127.0.0.1 –host 8000 (For Windows )```<br>
+Step 3: ```python webstreaming.py --ip 0.0.0.0 --port 8000 (For MacOS/ Linux )```<br>
+        ```python webstreaming.py --ip 127.0.0.1 --port 8000 (For Windows )```<br>
 
 Tools: Pytorch, OpenCV, Flask, Mongo DB (PyMongo), Bootstrap 
 
