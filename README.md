@@ -1,7 +1,7 @@
 # Web-based-Sign-Language-Classifier
 ***Introduction***
 
-&nbsp;&nbsp;&nbsp;Sign Languages facilitate communication using hand signs. The earliest usage of sign languages has been recorded to be 5000 BC. In the research published by Centers for Disease Control and Prevention (CDC) in 2010, around 3 out of every 1000 children in the United States of America are born with a detectable amount of hearing loss in one or both ears. This project is a humble effort to help practice Sign Language Alphabets using Deep Learning models.
+&nbsp;&nbsp;&nbsp;Sign Languages facilitate communication using hand signs. The earliest usage of sign languages has been recorded to be 5000 BC. In the research published by Centers for Disease Control and Prevention (CDC) in 2010, around 3 out of every 1000 children in the United States of America are born with a detectable amount of hearing loss in one or both ears. This project is a humble effort to help practice Sign Language Alphabets using Deep Learning model based architecture.
 
 ***Problem Statement***
 
@@ -9,16 +9,16 @@
 
 ***Approach***
 
-&nbsp;&nbsp;&nbsp;As a part of data collection, I used the Kaggle dataset (present here) consisting of 27,455 training and 7172 test images. After training the model for 20 epochs, the accuracy of the model on the training set is 99.5% and on the test set is 96%.
+&nbsp;&nbsp;&nbsp;As a part of data collection, I used the <a href="https://www.kaggle.com/datamunge/sign-language-mnist">Kaggle dataset<a> consisting of 27,455 training and 7172 test images. After training the model for 20 epochs, the accuracy of the model on the training dataset is 99.5% and on the test dataset is 96.8%.
 
-A custom model as shown below has been used for this task:
+A custom CNN architecture based model as shown below has been used for this task:
 <p align="center">
   <img width="1000" height="300" src="https://user-images.githubusercontent.com/43301609/86103828-1a63af00-ba72-11ea-9ce8-a50856353bc3.png">
 </p>
 
-&nbsp;&nbsp;&nbsp;Once trained the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">W3 schools<a>. Images used in this project were downloaded from Google Search Engine.
+&nbsp;&nbsp;&nbsp;Once trained, the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">W3 schools<a>. Images used in this project were downloaded from Google Search Engine.
 
-Note: Due to the limitation in the diversity of the training data, the model works best with a clean background.
+***Note: Due to the limitation in diversity of the training dataset, the model works best with a clean, plain background.***
 
 ***Setup and Installation***
 
