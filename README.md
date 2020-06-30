@@ -13,7 +13,7 @@
 
 A custom CNN architecture based model as shown below has been used for this task:
 <p align="center">
-  <img width="800" height="500" src="https://user-images.githubusercontent.com/43301609/86128405-2cefdf80-ba96-11ea-8120-d02a76c794c3.PNG">
+  <img width="900" height="500" src="https://user-images.githubusercontent.com/43301609/86128405-2cefdf80-ba96-11ea-8120-d02a76c794c3.PNG">
 </p>
 
 &nbsp;&nbsp;&nbsp;Once trained, the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">W3 schools<a>. Images used in this project were downloaded from Google Search Engine.
