@@ -24,7 +24,8 @@ A custom CNN architecture based model as shown below has been used for this task
 
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
-Step 2: ```pip install Requirements.txt```<br>
+Step 2: ```pip3 install -r requirements.txt```<br>
+        ```Change torch wheel file in requirements.txt based on Windows, Linux or Mac <a href="https://pytorch.org/get-started/locally/#anaconda">Check heret<a>```<br>
 Step 3: ```python web-streaming.py –ip 0.0.0.0 –host 8000 (For MacOS/ Linux )```<br>
         ```python web-streaming.py –ip 127.0.0.1 –host 8000 (For Windows )```
 
