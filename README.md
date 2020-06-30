@@ -22,7 +22,7 @@ A custom CNN architecture based model as shown below has been used for this task
 
 ***Setup and Installation***
 
-Change torch wheel file in requirements.txt based on Windows, Linux or Mac OS being used.<a href="https://pytorch.org/get-started/locally/#anaconda">Check here<a><br>
+Change torch wheel file in requirements.txt based on Windows, Linux or Mac OS being used. <a href="https://pytorch.org/get-started/locally/#anaconda">Check here<a><br>
   
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
@@ -32,6 +32,15 @@ Step 3: ```python web-streaming.py –ip 0.0.0.0 –host 8000 (For MacOS/ Linux 
 
 Tools: Pytorch, OpenCV, Flask, Mongo DB (PyMongo), Bootstrap 
 
+***Demo Video***
+
+&nbsp;&nbsp;&nbsp;Watch a <a href="https://youtu.be/cUS1LvmjlCA">video<a> demonstrating the sign language classfier. 
+
 ***Future Enhancements***<br><br>
 &nbsp;&nbsp;&nbsp;Heroku based online website in progress…
 
+***References***
+
+Mohamed Shawky - <a href="https://github.com/mohshawky5193/dog-breed-classifier">dog-breed-classifier<a><br>
+Miguel Grinberg - <a href="https://blog.miguelgrinberg.com/post/video-streaming-with-flask">Video Streaming With Flask<a><br>
+<a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">Bootstrap Theme "Simply Me"<a><br>
