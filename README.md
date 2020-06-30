@@ -16,7 +16,7 @@ A custom model as shown below has been used for this task:
   <img width="1000" height="300" src="https://user-images.githubusercontent.com/43301609/86103828-1a63af00-ba72-11ea-9ce8-a50856353bc3.png">
 </p>
 
-&nbsp;&nbsp;&nbsp;Once trained the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from W3 schools(Link). Images used in this project were downloaded from Google Search Engine.
+&nbsp;&nbsp;&nbsp;Once trained the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">W3 schools<a>. Images used in this project were downloaded from Google Search Engine.
 
 Note: Due to the limitation in the diversity of the training data, the model works best with a clean background.
 
