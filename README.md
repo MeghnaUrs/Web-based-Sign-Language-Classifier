@@ -12,11 +12,9 @@
 &nbsp;&nbsp;&nbsp;As a part of data collection, I used the Kaggle dataset (present here) consisting of 27,455 training and 7172 test images. After training the model for 20 epochs, the accuracy of the model on the training set is 99.5% and on the test set is 96%.
 
 A custom model as shown below has been used for this task:
-
-<img src="#"></img>
-
-
-
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/43301609/86103828-1a63af00-ba72-11ea-9ce8-a50856353bc3.png">
+</p>
 
 &nbsp;&nbsp;&nbsp;Once trained the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from W3 schools(Link). Images used in this project were downloaded from Google Search Engine.
 
@@ -27,11 +25,11 @@ Note: Due to the limitation in the diversity of the training data, the model wor
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
 Step 2: ```pip install Requirements.txt```<br>
-Step 3: ```python web-streaming.py –ip 0.0.0.0 –host 8000 (For MacOS/ Linux )```
+Step 3: ```python web-streaming.py –ip 0.0.0.0 –host 8000 (For MacOS/ Linux )```<br>
         ```python web-streaming.py –ip 127.0.0.1 –host 8000 (For Windows )```
 
 Tools: Pytorch, OpenCV, Flask, Mongo DB (PyMongo), Bootstrap 
 
-***Future Enhancements***<br>
-Heroku based online website in progress…
+***Future Enhancements***<br><br>
+&nbsp;&nbsp;&nbsp;Heroku based online website in progress…
 
