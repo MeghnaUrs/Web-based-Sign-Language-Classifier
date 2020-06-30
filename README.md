@@ -21,7 +21,9 @@ A custom CNN architecture based model as shown below has been used for this task
 ***Note: Due to the limitation in diversity of the training dataset, the model works best with a clean, plain background.***
 
 ***Setup and Installation***
-Change torch wheel file in requirements.txt based on Windows, Linux or Mac <a href="https://pytorch.org/get-started/locally/#anaconda">Check heret<a>
+
+Change torch wheel file in requirements.txt based on Windows, Linux or Mac <a href="https://pytorch.org/get-started/locally/#anaconda">Check heret<a><br>
+  
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
 Step 2: ```pip3 install -r requirements.txt```<br>
