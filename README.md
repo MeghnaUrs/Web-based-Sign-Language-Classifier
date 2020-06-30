@@ -22,7 +22,7 @@ A custom CNN architecture based model as shown below has been used for this task
 
 ***Setup and Installation***
 
-Change torch and torchvision in requirements.txt based on Windows, Linux or Mac OS being used and installation method. <a href="https://pytorch.org/get-started/locally/">Check here<a><br>
+Change torch and torchvision in requirements.txt based on Windows, Linux or Mac OS being used and installation method (If you are using Mac or Linus with GPU, there is no need to change the requirements.txt file). <a href="https://pytorch.org/get-started/locally/">Check here<a><br>
   
 Step 0: ```Git clone this project```<br>
 Step 1: ```cd <local-repository-folder>``` <br>
