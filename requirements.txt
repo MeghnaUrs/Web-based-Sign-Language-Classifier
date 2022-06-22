@@ -1,6 +1,6 @@
 flask==1.1.2
 imutils==0.5.3
-numpy==1.16.5
+numpy==1.22.0
 opencv-python==3.4.2.17
 argparse
 pymongo==3.10.1
